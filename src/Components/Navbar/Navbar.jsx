@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm z-10 dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow"
             >
              <li><a href="#">Products</a></li>
            <li><a href="#">Features</a></li>
@@ -47,7 +47,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end gap-4">
-            <p className="flex gap-3 items-center"><FaShoppingCart /> Login</p>
+            <p className="md:flex hidden gap-3 items-center"><FaShoppingCart /> Login</p>
           <a className="btn bg-[linear-gradient(88deg,#4f39f6_0%,#9514fa_100%)]  rounded-full text-white">Get Started</a>
         </div>
       </div>
