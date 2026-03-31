@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "badge": "Best Seller",
+    "image": "https://i.ibb.co.com/rG9wbXkk/design-tool.png",
+    "title": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "billing": "Mo",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ]
+  },
+  {
+    "id": 2,
+    "badge": "Popular",
+    "image": "https://i.ibb.co.com/5XRgBjFx/operation.png",
+    "title": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 19,
+    "billing": "on-time",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ]
+  },
+  {
+    "id": 3,
+    "badge": "New",
+    "image": "https://i.ibb.co.com/202rGXWc/portfolio.png",
+    "title": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 25,
+    "billing": "Mo",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ]
+  },
+  {
+    "id": 4,
+    "badge": "Recommended",
+    "image": "https://i.ibb.co.com/CpBjVXBK/shopping-cart.png",
+    "title": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 35,
+    "billing": "Mo",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ]
+  },
+  {
+    "id": 5,
+    "badge": "Trending",
+    "image": "https://i.ibb.co.com/HDS8HsTF/social-media.png",
+    "title": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 39,
+    "billing": "on-time",
+    "features": [
+      "100+ templates",
+      "CampaATS optimization",
+      "Export to PDF"
+    ]
+  },
+  {
+    "id": 6,
+    "badge": "Starter",
+    "image": "https://i.ibb.co.com/Zpx2xngY/writing-2327400-1.png",
+    "title": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 9,
+    "billing": "Mo",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ]
+  }
+]

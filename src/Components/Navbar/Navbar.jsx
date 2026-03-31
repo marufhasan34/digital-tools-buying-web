@@ -1,7 +1,7 @@
 import React from "react";
-import { FaShoppingCart } from "react-icons/fa";
+import navIcon from "../../assets/products/shopping-cart.png";
 
-const Navbar = () => {
+const Navbar = ({ carts }) => {
   return (
     <div>
       <div className="navbar mt-7 container mx-auto">
@@ -28,27 +28,57 @@ const Navbar = () => {
               tabIndex="-1"
               className="menu menu-sm z-10 dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow"
             >
-             <li><a href="#">Products</a></li>
-           <li><a href="#">Features</a></li>
-           <li><a href="#">Pricing</a></li>
-           <li><a href="#">Testimonials</a></li>
-           <li><a href="#">FAQ</a></li>
+              <li>
+                <a href="#">Products</a>
+              </li>
+              <li>
+                <a href="#">Features</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Testimonials</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
             </ul>
           </div>
-          <a className=" font-extrabold text-4xl bg-[linear-gradient(88deg,#4f39f6_0%,#9514fa_100%)] cursor-pointer bg-clip-text text-transparent">DigiTools</a>
+          <a className=" font-extrabold text-4xl bg-[linear-gradient(88deg,#4f39f6_0%,#9514fa_100%)] cursor-pointer bg-clip-text text-transparent">
+            DigiTools
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-medium">
-           <li><a href="#">Products</a></li>
-           <li><a href="#">Features</a></li>
-           <li><a href="#">Pricing</a></li>
-           <li><a href="#">Testimonials</a></li>
-           <li><a href="#">FAQ</a></li>
+            <li>
+              <a href="#">Products</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Testimonials</a>
+            </li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
           </ul>
         </div>
         <div className="navbar-end gap-4">
-            <p className="md:flex hidden gap-3 items-center"><FaShoppingCart /> Login</p>
-          <a className="btn bg-[linear-gradient(88deg,#4f39f6_0%,#9514fa_100%)]  rounded-full text-white">Get Started</a>
+          <div className="md:flex hidden items-center gap-3">
+            <div>
+              <img className="relative" src={navIcon} alt="" />{" "}
+              <span className="absolute z-10 right-44 -top-1 text-white bg-red-500 p-1 rounded-full">{carts.length}</span>
+            </div>
+            <div>Login</div>
+          </div>
+          <a className="btn bg-[linear-gradient(88deg,#4f39f6_0%,#9514fa_100%)]  rounded-full text-white">
+            Get Started
+          </a>
         </div>
       </div>
     </div>
