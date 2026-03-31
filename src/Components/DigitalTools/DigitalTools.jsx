@@ -5,7 +5,7 @@ import cartImg3 from '../../assets/rocket.png'
 
 const DigitalTools = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto my-36">
       <div className="text-center">
         <h2 className="font-bold text-4xl">Get Started in 3 Steps</h2>
         <p className="mt-1">
