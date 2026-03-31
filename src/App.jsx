@@ -3,6 +3,7 @@ import Banner from './Components/Banner/Banner'
 import Counter from './Components/Counter/Counter'
 import Workflow from './Components/Counter/Workflow/Workflow'
 import DigitalTools from './Components/DigitalTools/DigitalTools'
+import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
 import Pricing from './Components/Pricing/Pricing'
 function App() {
@@ -15,6 +16,7 @@ function App() {
      <DigitalTools/>
      <Pricing/>
      <Workflow/>
+     <Footer/>
     </>
   )
 }
